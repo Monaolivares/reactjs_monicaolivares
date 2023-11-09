@@ -16,15 +16,24 @@ const NavBar = () =>{
 
         <div className="columns">
             
-            <button className="column button is-primary is-light"><a src="">Cosmetica natural</a></button>
+            <div className="column">
+            <button className="button is-primary is-light"><a src="">Cosmetica natural</a></button>
+            </div>
             
-            <button className="column button is-primary is-light"><a src="">Preparados herbales</a></button>
+            <div className="column">
+            <button className="button is-primary is-light"><a src="">Preparados herbales</a></button>
+            </div>
          
-            <button className="column button is-primary is-light"><a src="">Quienes somos</a></button>
-           
-            <button className="column button is-primary is-light"><a src="">Talleres y actividades</a></button>
+            <div className="column">
+                <button className="column button is-primary is-light"><a src="">Quienes somos</a></button>
+            </div>
+            <div className="column">
+                <button className="button is-primary is-light"><a src="">Talleres y actividades</a></button>
+            </div>
        
-            <button className="column button is-primary is-light"><a src="">E-books</a></button>
+            <div className="column ">
+            <button className="button is-primary is-light"><a src="">E-books</a></button>
+            </div>
 
             <CartWidget/>
 

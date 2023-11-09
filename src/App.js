@@ -5,6 +5,7 @@ function App() {
     return (
     <div className="App has-background-light">
         <NavBar></NavBar>
+        
         <ItemListContainer greeting={'Hooolaaaaaaaaa'}></ItemListContainer>
 
     </div>
