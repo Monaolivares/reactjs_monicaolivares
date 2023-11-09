@@ -6,31 +6,30 @@ import CartWidget from "../CartWidget/CartWidget";
 import 'bulma/css/bulma.min.css'; 
 const NavBar = () =>{
     return ( 
-    <nav className="navbar" role="navigation" aria-label="main navigation">
-        <div className="navbar-brand">
-        <a src=""><img src={BoticaLogo}></img></a>
-        <h2 class="is-size-4 has-text-centered has-text-weight-bold is-family-monospace">Botica Bosque</h2>
-        
-
-        
-        </div>
+    <nav className="has-background-light">
         <div>
-        <div clasName="navbar-brand">
-            <div className="navbar-item has-dropdown is-hoverable"> 
-                <button className="navbar-item"><a>Cosmetica natural</a></button>
-                <button className="navbar-item"><a>Preparados herbales</a></button>
-            </div>
-            <hr class="navbar-divider"></hr>
-            <button className="navbar-item"><a>Quienes somos</a></button>
-            <hr class="navbar-divider"></hr>
-            <button className="navbar-item"><a>Talleres y actividades</a></button>
-            <hr class="navbar-divider"></hr>
-            <button className="navbar-item"><a>E-books</a></button>
-
-            <CartWidget></CartWidget>
-
-
+       <figure >
+       <img src={BoticaLogo}></img>
+       </figure>
+        <h2 class="is-size-4 has-text-centered has-text-weight-bold is-family-monospace">Botica Bosque</h2>
         </div>
+
+        <div className="columns">
+            
+            <button className="column button is-primary is-light"><a src="">Cosmetica natural</a></button>
+            
+            <button className="column button is-primary is-light"><a src="">Preparados herbales</a></button>
+         
+            <button className="column button is-primary is-light"><a src="">Quienes somos</a></button>
+           
+            <button className="column button is-primary is-light"><a src="">Talleres y actividades</a></button>
+       
+            <button className="column button is-primary is-light"><a src="">E-books</a></button>
+
+            <CartWidget/>
+
+
+        
         </div>
 
     </nav>
