@@ -2,6 +2,7 @@
 import BoticaLogo from "../../img/botica.png"; 
 
 import CartWidget from "../CartWidget/CartWidget";
+import "../../App.css"; 
 
 import 'bulma/css/bulma.min.css'; 
 const NavBar = () =>{
